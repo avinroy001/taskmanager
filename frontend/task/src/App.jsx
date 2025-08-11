@@ -28,7 +28,7 @@ import FileDownloadIcon from '@mui/icons-material/FileDownload';
 import EditIcon from '@mui/icons-material/Edit';
 import DeleteIcon from '@mui/icons-material/Delete';
 
-const API_URL = 'http://localhost:3000/api/tasks';
+const API_URL = 'https://taskmanager-k7o4.onrender.com/api/tasks';
 
 function App() {
   const [tasks, setTasks] = useState([]);
